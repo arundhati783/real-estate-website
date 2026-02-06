@@ -13,6 +13,9 @@ import { Footer } from "@/components/footer"
 export default function Home() {
   return (
     <main className="min-h-screen">
+  <h1 style={{ display: "none" }}>Deployment Trigger</h1>
+
+
       <Header />
       <Hero />
       <TrendingProjects />
