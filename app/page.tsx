@@ -13,9 +13,6 @@ import { Footer } from "@/components/footer"
 export default function Home() {
   return (
     <main className="min-h-screen">
-      {/* deployment trigger – safe to keep */}
-      <h1 style={{ display: "none" }}>Deployment Trigger</h1>
-
       <Header />
       <Hero />
       <TrendingProjects />
